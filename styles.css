@@ -29,6 +29,24 @@ p{
     color: #465b52;
     margin: 15px 0 20px 0;
 }
+.section-p1{
+    padding: 40px 80px;
+}
+.scetion-m1{
+    margin: 40px 0;
+}
+#free-shipping{
+    height: 100px;
+    width: 100px;
+}
+#feature .fe-box{
+width: 180px;
+text-align: center;
+padding: 25px 15px;
+box-shadow: 20px 20px 34px rgb(0,0,0,0.03);
+border: 1px solid #cce7d0;
+
+}
 body{
     width: 100%;
 }
