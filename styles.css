@@ -78,6 +78,7 @@ border-radius: 20px;
 cursor : pointer;
 border: 1 px solid #cce7d0;
 margin: 15px 0px;
+position: relative;
     }
     #product1 .pro:hover{
         box-shadow: 10px 10px 34px rgb(0,0,0,0.1); 
@@ -111,7 +112,18 @@ font-size: 12px;
         font-weight: 700;
         color: rgb(46, 0, 0);
     }
-
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
 body{
     width: 100%;
 }
